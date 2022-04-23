@@ -1,0 +1,17 @@
+.loading {
+  // transform: scale(1.5);
+  animation: lds-dual-ring 1.2s linear infinite;
+
+  margin-bottom: 50px;
+}
+
+
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

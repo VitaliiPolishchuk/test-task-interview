@@ -1,0 +1,64 @@
+.input-file {
+  margin-top: 47px;
+  width: 100%;
+  position: relative;
+
+  --border-px: 1px;
+  --clr-border-left: rgba(0, 0, 0, 0.87);
+  --clr-border-right: #D0CFCF;
+  --clr-labes: #CB3D40;
+}
+
+.decorator {
+  display: flex;
+}
+
+.decorator-left {
+  --width: 25%;
+  background: #F8F8F8;
+  border-bottom: var(--border-px) solid var(--clr-border-left);
+  border-top: var(--border-px) solid var(--clr-border-left);
+  border-left: var(--border-px) solid var(--clr-border-left);
+  border-right: 1px solid var(--clr-border-left);
+  box-sizing: border-box;
+  border-radius: 4px 0px 0px 4px;
+  width: var(--width);
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decorator-right {
+  background: #F8F8F8;
+  /* Light_gray */
+
+  box-sizing: border-box;
+  
+  width: 75%;
+  height: 54px;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  border-bottom: var(--border-px) solid var(--clr-border-left);
+  border-top: var(--border-px) solid var(--clr-border-left);
+  border-right: var(--border-px) solid var(--clr-border-left);
+  border-left: 1px solid var(--clr-border-left);
+  border-radius: 0px 4px 4px 0px;
+}
+
+.input-file label {
+  position: absolute;
+  left: 5%;
+  top: 110%;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--clr-labes);
+}
+
+.error-input-file {
+  --border-px: 2px;
+  --clr-border-left: #CB3D40;
+  --clr-border-right: #CB3D40;
+}

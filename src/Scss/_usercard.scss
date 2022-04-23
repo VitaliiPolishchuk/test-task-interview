@@ -1,0 +1,26 @@
+.user-card {
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.user-card img {
+  border-radius: 50%;
+  margin-bottom: 21px;
+}
+
+.user-card object {
+  border-radius: 50%;
+  margin-bottom: 21px;
+}
+
+.user-name {
+  margin-bottom: 19px;
+  width: 100%;
+}

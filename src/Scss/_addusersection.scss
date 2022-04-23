@@ -1,0 +1,39 @@
+.add-user-section {
+  padding-top: 140px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: var(--clr-light-gray);
+}
+
+.add-user-section h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  margin-top: 45px;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.sign-up-button {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
